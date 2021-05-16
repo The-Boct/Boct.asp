@@ -26,7 +26,7 @@ namespace Boct
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/build";
+                configuration.RootPath = "client/build";
             });
         }
 
@@ -44,7 +44,7 @@ namespace Boct
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
@@ -59,7 +59,7 @@ namespace Boct
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = "ClientApp";
+                spa.Options.SourcePath = "client";
 
                 if (env.IsDevelopment())
                 {
