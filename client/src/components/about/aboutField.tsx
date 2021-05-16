@@ -86,7 +86,7 @@ function AboutPanel() {
         </div>
         <p id="releaseVer">Version 4 | Feb 2021</p>
         <hr />
-        <p>BOcT is a Static Browser Chatbot</p>
+        <p>Boct is a Static Browser Chatbot</p>
         <p>It's currently in Lazy Development</p>
         <p>Future Updates to BOcT can make it perform basic Maths, Maybe suggest you some Movies...</p>
       </fieldset>
